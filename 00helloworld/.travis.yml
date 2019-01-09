@@ -1,6 +1,6 @@
 language: cpp
 dist: trusty
 compiler:
-- clang
+ - clang
 os:
-- linux
+ - linux
