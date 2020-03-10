@@ -1,9 +1,8 @@
 language: cpp
 dist: trusty
-script: 
-  - cd 00helloworld
-  - make && ./helloworld
 compiler:
- - clang
+ - g++
+script: 
+  - g++ src/00helloworld.cpp -o hw.o
 os:
  - linux
