@@ -1,0 +1,9 @@
+language: cpp
+dist: trusty
+script: 
+  - cd 00_helloworld
+  - make && ./helloworld
+compiler:
+ - clang
+os:
+ - linux
