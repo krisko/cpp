@@ -2,7 +2,8 @@ language: cpp
 dist: trusty
 compiler:
  - g++
-script: 
+script:
+  - cd 00_helloworld
   - g++ src/00helloworld.cpp -o hw.o
 os:
  - linux
