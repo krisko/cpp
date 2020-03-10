@@ -3,7 +3,7 @@ dist: trusty
 compiler:
  - g++
 script:
-  - cd 00_helloworld
+  - cd 00helloworld
   - g++ src/00helloworld.cpp -o hw.o
 os:
  - linux
